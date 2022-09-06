@@ -24,14 +24,14 @@ stages:          # List of stages for jobs, and their order of execution
 build-job:       # This job runs in the build stage, which runs first.
   stage: build
   script:
-    - npm install
-    - dotnet restore
+    - cd Frontend && npm install
+    - cd Backend && dotnet restore
 
 unit-test-job:   # This job runs in the test stage.
   stage: test    # It only starts when the job in the build stage completes successfully.
   script:
-    - dotnet run
-    - npm test
+    - cd Backend && dotnet run
+    - cd Frontend && npm test
 
 deploy-job:      # This job runs in the deploy stage.
   stage: deploy  # It only runs when *both* jobs in the test stage complete successfully.
