@@ -36,7 +36,6 @@ public class UserController : ControllerBase {
     }
 
     [HttpGet("token")]
-    [Authorized]
     public ActionResult<AccessToken> GetToken() {
         return this.FromLogicResult(_logic.GenerateToken(_logic.GetCurrentUserRefreshToken()));
     }

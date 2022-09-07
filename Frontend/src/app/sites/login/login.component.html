@@ -1,1 +1,24 @@
-<p>login works!</p>
+<section class="login">
+  <form class="glass" (submit)="$event.preventDefault(); login(form, username.value, password.value)" #form>
+    <mat-form-field appearance="fill">
+      <mat-label>Benutzername oder E-Mail</mat-label>
+      <input matInput type="text" required #username>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Passwort</mat-label>
+      <input matInput type="password" required #password>
+    </mat-form-field>
+
+    <button mat-button type="submit" [disabled]="disableLogin">Einloggen</button>
+
+    <mat-divider></mat-divider>
+
+    <div>
+      <span>Du besitzt keinen Account? </span>
+      <a routerLink="/register">Registrieren</a>
+    </div>
+  </form>
+</section>
+
+<div class="error" #error></div>

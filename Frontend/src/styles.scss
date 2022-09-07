@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+@use "colors";
+
+html, body { height: 100%; overflow: hidden; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+$background: "/assets/background.png";
+
+* {
+  color: colors.$text;
+}
+
+.glass {
+  background: rgba(colors.$light, 0.15);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+@mixin mat-select-theme() {
+  .mat-form-field-appearance-fill .mat-form-field-underline::before {
+    background-color: colors.$text;
+  }
+
+  .mat-divider {
+    border-top-color: colors.$text;
+  }
+}
+
+@include mat-select-theme();
+

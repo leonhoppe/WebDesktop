@@ -1,6 +1,6 @@
 ﻿export interface User extends UserEditor {
   id: string;
-  created: Date;
+  created: string;
 }
 
 export interface UserLogin {

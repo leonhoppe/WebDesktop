@@ -74,7 +74,7 @@ export class BackendService {
         }
       }
 
-      return {content: undefined, success: false, code: error.status, message: error.error.title};
+      return {content: undefined, success: false, code: error.status, message: error.error};
     }
   }
 

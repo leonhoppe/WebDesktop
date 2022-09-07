@@ -22,6 +22,7 @@ export class AppComponent implements OnInit {
 
       if (await this.backend.requestToken()) this.loaded = true;
       else await this.router.navigate(["login"]);
+      this.loaded = true;
     }, 0);
   }
 }

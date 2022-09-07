@@ -32,8 +32,8 @@ export class UserApi {
     return response.success;
   }
 
-  public async getUserPermissions(id: string, includeGroupPermissions: boolean = true): Promise<string[]> {
-    const response = await this.backend.sendRequest<string[]>(RequestTypes.GET, "users/" + id + "/permissions" + (includeGroupPermissions ? "/raw" : ""), undefined, {authorized: true});
+  public async getUserPermissions(id: string, excludeGroupPermissions: boolean = false): Promise<string[]> {
+    const response = await this.backend.sendRequest<string[]>(RequestTypes.GET, "users/" + id + "/permissions" + (excludeGroupPermissions ? "/raw" : ""), undefined, {authorized: true});
     if (!response.success) return [];
     return response.content;
   }
@@ -48,7 +48,7 @@ export class UserApi {
     return response.success;
   }
 
-  public async login(login: UserLogin): Promise<{success: boolean, errorMessage: string}> {
+  public async login(login: UserLogin): Promise<{success: boolean, errorMessage: string, errorCode: number}> {
     const response = await this.backend.sendRequest<AccessToken>(RequestTypes.PUT, "users/login", login, {withCredentials: true});
 
     if (response.success) {
@@ -56,10 +56,10 @@ export class UserApi {
       await this.getAuthorizedUser();
     }
 
-    return {success: response.success, errorMessage: response.message};
+    return {success: response.success, errorMessage: response.message, errorCode: response.code};
   }
 
-  public async register(register: UserEditor): Promise<{success: boolean, errorMessage: string}> {
+  public async register(register: UserEditor): Promise<{success: boolean, errorMessage: string, errorCode: number}> {
     const response = await this.backend.sendRequest<AccessToken>(RequestTypes.POST, "users/register", register, {withCredentials: true});
 
     if (response.success) {
@@ -67,7 +67,7 @@ export class UserApi {
       await this.getAuthorizedUser();
     }
 
-    return {success: response.success, errorMessage: response.message};
+    return {success: response.success, errorMessage: response.message, errorCode: response.code};
   }
 
   public async logout(id: string): Promise<boolean> {

@@ -1,0 +1,57 @@
+<section class="login">
+  <form class="glass" (submit)="$event.preventDefault(); register(form, {
+  username: username.value,
+  password: password.value,
+  firstName: firstname.value,
+  lastName: lastname.value,
+  email: email.value
+  }, pwRepeat.value)" #form>
+    <table>
+      <tr>
+        <td>
+          <mat-form-field appearance="fill">
+            <mat-label>Vorname</mat-label>
+            <input matInput type="text" required #firstname>
+          </mat-form-field>
+        </td>
+        <td>
+          <mat-form-field appearance="fill">
+            <mat-label>Nachname</mat-label>
+            <input matInput type="text" required #lastname>
+          </mat-form-field>
+        </td>
+      </tr>
+    </table>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Benutzername</mat-label>
+      <input matInput type="text" required #username>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>E-Mail</mat-label>
+      <input matInput type="email" required #email>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Passwort</mat-label>
+      <input matInput type="password" required #password>
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+      <mat-label>Passwort wiederholen</mat-label>
+      <input matInput type="password" required #pwRepeat>
+    </mat-form-field>
+
+    <button mat-button [disabled]="disableRegister" type="submit">Registrieren</button>
+
+    <mat-divider></mat-divider>
+
+    <div>
+      <span>Du hast bereits einen Account? </span>
+      <a routerLink="/login">Einloggen</a>
+    </div>
+  </form>
+</section>
+
+<div class="error" #error></div>
