@@ -1,0 +1,18 @@
+<div class="icon-wrapper" (click)="onTaskbarClick($event)">
+  <div class="inner-wrapper"
+    (mousedown)="icon.classList.add('click')"
+    (click)="icon.classList.remove('click')"
+  >
+    <img src="{{type.icon}}" alt="{{type.uuid}}" #icon>
+    <span class="icon-tooltip">{{type.program.name}}</span>
+    <div class="icon-indicator" #indicator></div>
+  </div>
+
+  <div class="instances" #instances>
+    <div *ngFor="let instance of windows">
+      <img src="{{type.icon}}" alt="{{type.uuid}}">
+      <span>{{instance.title}}</span>
+      <button mat-icon-button (mouseup)="instance.close(); updateInstances()"><mat-icon>close</mat-icon></button>
+    </div>
+  </div>
+</div>

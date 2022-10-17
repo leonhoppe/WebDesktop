@@ -1,0 +1,25 @@
+<div class="window-wrapper" #wrapper
+     (mousedown)="focus(); resizeHandler?.windowResizeStart($event)"
+     (mouseup)="resizeHandler?.windowResizeStop()"
+>
+  <header
+    (mousedown)="dragHandler?.windowDragStart($event)"
+    (mouseup)="dragHandler?.windowDragStop()"
+  >
+    <img src="{{program?.handlerUrl + 'favicon.ico'}}" alt="logo" draggable="false">
+    <span>{{title}}</span>
+
+    <div class="buttons">
+      <div class="header-button">
+        <mat-icon class="minimize" (click)="toggleMinimized()">minimize</mat-icon>
+      </div>
+      <div class="header-button">
+        <mat-icon (click)="toggleMaximized()">{{resizeIcon}}</mat-icon>
+      </div>
+      <div class="header-button">
+        <mat-icon (click)="close()">close</mat-icon>
+      </div>
+    </div>
+  </header>
+  <iframe #content (load)="applyContentListeners(content)"></iframe>
+</div>

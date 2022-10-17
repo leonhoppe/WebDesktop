@@ -15,6 +15,7 @@ export class LoginComponent {
   constructor(private users: UserApi, private router: Router) { }
 
   public async login(form: HTMLFormElement, username: string, password: string) {
+    if (this.disableLogin) return;
     if (!form.reportValidity()) return;
 
     const login: UserLogin = {usernameOrEmail: username, password: password};

@@ -12,12 +12,19 @@ import {MatButtonModule} from "@angular/material/button";
 import {MatDividerModule} from "@angular/material/divider";
 import { RegisterComponent } from './sites/register/register.component';
 import {ReactiveFormsModule} from "@angular/forms";
+import { DesktopComponent } from './sites/desktop/desktop.component';
+import { TaskbarIcon } from './sites/desktop/taskbar-icon/taskbar-icon.component';
+import { WindowWrapper } from './components/window-wrapper/window-wrapper.component';
+import {MatIconModule} from "@angular/material/icon";
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    DesktopComponent,
+    TaskbarIcon,
+    WindowWrapper
   ],
   imports: [
     BrowserModule,
@@ -28,7 +35,8 @@ import {ReactiveFormsModule} from "@angular/forms";
     MatInputModule,
     MatButtonModule,
     MatDividerModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,0 +1,20 @@
+<section class="desktop">
+  <div class="windows">
+    <meta #windows>
+  </div>
+
+  <div class="taskbar">
+    <div class="icons">
+      <img src="/favicon.ico" alt="home-button" #taskbarIcons (click)="openProgram('defender')">
+    </div>
+    <div class="right">
+      <img src="/assets/icons/defender.png" alt="defender">
+
+      <div class="lang">DEU</div>
+      <div class="datetime">
+        <span>{{time}}</span>
+        <span>{{date}}</span>
+      </div>
+    </div>
+  </div>
+</section>

@@ -10,6 +10,10 @@ $background: "/assets/background.png";
   color: colors.$text;
 }
 
+.unselectable {
+  user-select: none;
+}
+
 .glass {
   background: rgba(colors.$light, 0.15);
   backdrop-filter: blur(10px);

@@ -73,6 +73,8 @@ export class BackendService {
           return this.sendRequest<T>(type, endpoint, body, options);
         }
       }
+      if (error.status == 0)
+        return {content: undefined, success: false, code: error.status, message: "Server nicht erreichbar!"};
 
       return {content: undefined, success: false, code: error.status, message: error.error};
     }

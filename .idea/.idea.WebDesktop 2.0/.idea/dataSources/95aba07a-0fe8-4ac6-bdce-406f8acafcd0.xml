@@ -5,9 +5,9 @@
       <DefaultCasing>exact</DefaultCasing>
       <ServerVersion>10.3.34</ServerVersion>
     </root>
-    <schema id="2" parent="1" name="WebDesktop">
+    <schema id="2" parent="1" name="information_schema"/>
+    <schema id="3" parent="1" name="WebDesktop">
       <Current>1</Current>
     </schema>
-    <schema id="3" parent="1" name="information_schema"/>
   </database-model>
 </dataSource>

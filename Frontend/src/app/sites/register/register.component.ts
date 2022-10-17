@@ -15,6 +15,7 @@ export class RegisterComponent {
   constructor(private users: UserApi, private router: Router) { }
 
   public async register(form: HTMLFormElement, register: UserEditor, pwRepeat: string) {
+    if (this.disableRegister) return;
     if (!form.reportValidity()) return;
 
     if (register.password !== pwRepeat) {
