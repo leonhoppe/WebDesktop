@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<iframe src="window.html" width="512" height="512" id="window-frame"></iframe>
+
+<script>
+    const frame = document.getElementById('window-frame');
+    
+    frame.addEventListener('load', () => {
+        
+    });
+    
+    window.addEventListener('message', (event) => {
+        if (event.origin !== new URL(frame.src).origin) return;
+
+        console.log(event.data);
+        frame.contentWindow.postMessage({content: 'Test Titel'}, event.origin);
+    }, false);
+</script>
+
+</body>
+</html>

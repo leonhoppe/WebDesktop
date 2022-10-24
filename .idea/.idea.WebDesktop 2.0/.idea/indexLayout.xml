@@ -3,6 +3,8 @@
   <component name="UserContentModel">
     <attachedFolders>
       <Path>Frontend</Path>
+      <Path>WindowAPI</Path>
+      <Path>WindowAPI_Test</Path>
     </attachedFolders>
     <explicitIncludes />
     <explicitExcludes />

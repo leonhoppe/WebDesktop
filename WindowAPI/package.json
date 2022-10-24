@@ -1,0 +1,19 @@
+{
+  "name": "webdesktop_windowapi",
+  "version": "1.0.5",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.tx",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "publish": "npm version patch && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  }
+}

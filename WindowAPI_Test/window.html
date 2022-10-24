@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Window API Test</title>
+</head>
+<body>
+
+<h1>Window APT Tester works!</h1>
+
+<script type="module">
+    import {WindowAPI} from "./node_modules/webdesktop_windowapi/dist/WindowAPI.js";
+
+    const api = new WindowAPI();
+    
+    setTimeout(async () => {
+        api.set.title("Haha POPO");
+        
+        const title = await api.get.title();
+        console.log(title);
+    })
+</script>
+
+</body>
+</html>
