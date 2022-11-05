@@ -50,11 +50,12 @@ export class WindowAPI {
     public get: Getters = {
         title: this.getMethod<string>('title'),
         size: this.getMethod<{width: number, height: number}>('size'),
-        position: this.getMethod<{x: number, y: number}>('size'),
+        position: this.getMethod<{x: number, y: number}>('position'),
         maximized: this.getMethod<boolean>('maximized'),
         minimized: this.getMethod<boolean>('minimized'),
         draggable: this.getMethod<boolean>('draggable'),
         resizable: this.getMethod<boolean>('resizable'),
+        uuid: this.getMethod<number>('uuid')
     };
     
     public set: Setters = {
@@ -79,12 +80,9 @@ export class WindowAPI {
     
     public event: WindowEventEmitter = new class extends WindowEventEmitter {
         emit(name: WindowEventName, data: WindowEvent): void {
-            if (!this._events[name]) {
-                throw new Error(`Can't emit an event. Event "${name}" doesn't exits.`);
-            }
+            if (!this._events[name]) return;
 
             const fire = (callback) => callback(data);
-
             this._events[name].forEach(fire);
         }
 

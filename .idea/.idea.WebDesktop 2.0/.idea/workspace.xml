@@ -6,252 +6,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="041c7675-58ae-4243-af88-0d29855e558f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/WindowAPI.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/WindowAPI.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/WindowAPI.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/EventData.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/EventData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/EventData.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/Notification.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/Notification.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/Notification.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/Package.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/Package.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/Package.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/PackageTypes.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/PackageTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/PackageTypes.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/PopupData.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/PopupData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/PopupData.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/functions/Actions.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/functions/Actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/functions/Actions.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/functions/Getter.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/functions/Getter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/functions/Getter.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/functions/Setter.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/functions/Setter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/functions/Setter.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/functions/WindowEventEmitter.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/functions/WindowEventEmitter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/dist/helper/functions/WindowEventEmitter.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/.bin/tsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/.bin/tsc.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/.bin/tsc.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/.bin/tsserver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/.bin/tsserver.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/.bin/tsserver.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/.package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/AUTHORS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/CODE_OF_CONDUCT.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/CopyrightNotice.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/SECURITY.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/ThirdPartyNoticeText.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/bin/tsc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/bin/tsserver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/cancellationToken.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/cs/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/de/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/dynamicImportCompat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/es/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/fr/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/it/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/ja/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/ko/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.dom.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.dom.iterable.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2015.collection.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2015.core.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2015.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2015.generator.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2015.iterable.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2015.promise.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2015.proxy.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2015.reflect.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2015.symbol.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2016.array.include.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2016.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2016.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2017.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2017.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2017.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2017.object.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2017.string.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2017.typedarrays.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2018.asyncgenerator.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2018.asynciterable.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2018.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2018.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2018.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2018.promise.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2018.regexp.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2019.array.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2019.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2019.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2019.object.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2019.string.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2019.symbol.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2020.bigint.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2020.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2020.date.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2020.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2020.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2020.number.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2020.promise.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2020.sharedmemory.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2020.string.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2020.symbol.wellknown.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2021.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2021.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2021.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2021.promise.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2021.string.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2021.weakref.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2022.array.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2022.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2022.error.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2022.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2022.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2022.object.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2022.sharedmemory.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es2022.string.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es5.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.es6.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.esnext.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.esnext.full.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.esnext.intl.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.esnext.promise.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.esnext.string.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.esnext.weakref.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.scripthost.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.webworker.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.webworker.importscripts.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/lib.webworker.iterable.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/pl/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/protocol.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/pt-br/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/ru/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/tr/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/tsc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/tsserver.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/tsserverlibrary.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/tsserverlibrary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/typesMap.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/typescript.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/typescript.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/typescriptServices.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/typescriptServices.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/typingsInstaller.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/watchGuard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/zh-cn/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/lib/zh-tw/diagnosticMessages.generated.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CHS/Targets/ProjectItemsSchema.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CHS/Targets/TypeScriptCompile.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CHS/Targets/TypeScriptProjectProperties.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CHS/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CHS/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CHS/TypeScriptTasks/TypeScript.Tasks.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CHT/Targets/ProjectItemsSchema.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CHT/Targets/TypeScriptCompile.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CHT/Targets/TypeScriptProjectProperties.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CHT/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CHT/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CHT/TypeScriptTasks/TypeScript.Tasks.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CSY/Targets/ProjectItemsSchema.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CSY/Targets/TypeScriptCompile.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CSY/Targets/TypeScriptProjectProperties.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CSY/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CSY/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/CSY/TypeScriptTasks/TypeScript.Tasks.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/DEU/Targets/ProjectItemsSchema.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/DEU/Targets/TypeScriptCompile.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/DEU/Targets/TypeScriptProjectProperties.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/DEU/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/DEU/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/DEU/TypeScriptTasks/TypeScript.Tasks.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/ESN/Targets/ProjectItemsSchema.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/ESN/Targets/TypeScriptCompile.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/ESN/Targets/TypeScriptProjectProperties.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/ESN/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/ESN/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/ESN/TypeScriptTasks/TypeScript.Tasks.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/FRA/Targets/ProjectItemsSchema.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/FRA/Targets/TypeScriptCompile.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/FRA/Targets/TypeScriptProjectProperties.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/FRA/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/FRA/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/FRA/TypeScriptTasks/TypeScript.Tasks.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/ITA/Targets/ProjectItemsSchema.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/ITA/Targets/TypeScriptCompile.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/ITA/Targets/TypeScriptProjectProperties.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/ITA/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/ITA/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/ITA/TypeScriptTasks/TypeScript.Tasks.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/JPN/Targets/ProjectItemsSchema.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/JPN/Targets/TypeScriptCompile.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/JPN/Targets/TypeScriptProjectProperties.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/JPN/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/JPN/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/JPN/TypeScriptTasks/TypeScript.Tasks.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/KOR/Targets/ProjectItemsSchema.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/KOR/Targets/TypeScriptCompile.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/KOR/Targets/TypeScriptProjectProperties.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/KOR/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/KOR/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/KOR/TypeScriptTasks/TypeScript.Tasks.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/PLK/Targets/ProjectItemsSchema.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/PLK/Targets/TypeScriptCompile.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/PLK/Targets/TypeScriptProjectProperties.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/PLK/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/PLK/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/PLK/TypeScriptTasks/TypeScript.Tasks.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/PTB/Targets/ProjectItemsSchema.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/PTB/Targets/TypeScriptCompile.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/PTB/Targets/TypeScriptProjectProperties.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/PTB/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/PTB/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/PTB/TypeScriptTasks/TypeScript.Tasks.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/RUS/Targets/ProjectItemsSchema.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/RUS/Targets/TypeScriptCompile.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/RUS/Targets/TypeScriptProjectProperties.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/RUS/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/RUS/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/RUS/TypeScriptTasks/TypeScript.Tasks.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/TRK/Targets/ProjectItemsSchema.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/TRK/Targets/TypeScriptCompile.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/TRK/Targets/TypeScriptProjectProperties.xaml.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/TRK/TypeScriptDebugEngine/TypeScriptDebugEngine.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/TRK/TypeScriptLanguageService/Microsoft.CodeAnalysis.TypeScript.EditorFeatures.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/loc/lcl/TRK/TypeScriptTasks/TypeScript.Tasks.dll.lcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/node_modules/typescript/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/src/WindowAPI.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/src/helper/EventData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/src/helper/Notification.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/src/helper/Package.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/src/helper/PackageTypes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/src/helper/PopupData.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/src/helper/functions/Actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/src/helper/functions/Getter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/src/helper/functions/Setter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/src/helper/functions/WindowEventEmitter.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI/tsconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI_Test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI_Test/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI_Test/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WindowAPI_Test/window.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebDesktop 2.0/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebDesktop 2.0/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WindowAPI_Test/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebDesktop 2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebDesktop 2.0/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/app/components/window-wrapper/window-wrapper.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/components/window-wrapper/window-wrapper.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/app/components/window-wrapper/window-wrapper.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/components/window-wrapper/window-wrapper.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/app/sites/desktop/desktop.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/sites/desktop/desktop.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Frontend/src/app/sites/desktop/taskbar-icon/taskbar-icon.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/sites/desktop/taskbar-icon/taskbar-icon.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowAPI/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowAPI/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowAPI/src/WindowAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI/src/WindowAPI.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowAPI/src/helper/PackageTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI/src/helper/PackageTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowAPI/src/helper/functions/Getter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI/src/helper/functions/Getter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowAPI_Test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI_Test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowAPI_Test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI_Test/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowAPI_Test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI_Test/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WindowAPI_Test/window.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -276,6 +47,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/123735509fa19d358d3971345e1872b6d26687d1b343ad7ca37af43930694c/Guid.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/efd3e9c4749621d4a53b45d7117d2a581e02a265c444a040f1387a155db/Dictionary.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/WindowAPI/package-lock.json" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -288,26 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "list.type.of.created.stylesheet": "SCSS",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "ts.external.directory.path": "D:\\Programmierstuff\\Projekte\\WebDesktop 2.0\\Frontend\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\Programmierstuff\\Projekte\\WebDesktop 2.0\\Frontend\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mariadb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mariadb&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Backend">
     <configuration name="Backend" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Backend/Backend.csproj" />
@@ -324,21 +96,6 @@
         <option name="Build" />
       </method>
     </configuration>
-    <configuration name="Start Containers" type="ShConfigurationType">
-      <option name="SCRIPT_TEXT" value="docker-compose up" />
-      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
-      <option name="SCRIPT_PATH" value="" />
-      <option name="SCRIPT_OPTIONS" value="" />
-      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
-      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
-      <option name="INTERPRETER_PATH" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="EXECUTE_IN_TERMINAL" value="true" />
-      <option name="EXECUTE_SCRIPT_FILE" value="false" />
-      <envs />
-      <method v="2" />
-    </configuration>
     <configuration name="Frontend" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/Frontend/package.json" />
       <command value="run" />
@@ -349,11 +106,11 @@
       <envs />
       <method v="2" />
     </configuration>
-    <configuration name="Test" type="js.build_tools.npm">
-      <package-json value="$PROJECT_DIR$/Frontend/package.json" />
+    <configuration name="WindowAPI Tester" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/WindowAPI_Test/package.json" />
       <command value="run" />
       <scripts>
-        <script value="test" />
+        <script value="dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -361,9 +118,8 @@
     </configuration>
     <list>
       <item itemvalue=".NET Launch Settings Profile.Backend" />
-      <item itemvalue="npm.Test" />
       <item itemvalue="npm.Frontend" />
-      <item itemvalue="Shell Script.Start Containers" />
+      <item itemvalue="npm.WindowAPI Tester" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="21" Folder0="D:\Spelling\de-DE" Folder1="D:\Spelling\de-DE" Folder2="D:\Spelling\de-DE" Folder3="D:\Spelling\de-DE" Folder4="D:\Spelling\de-DE" Folder5="D:\Spelling\de-DE" Folder6="D:\Spelling\de-DE" Folder7="D:\Spelling\de-DE" Folder8="D:\Spelling\de-DE" Folder9="D:\Spelling\de-DE" Folder10="D:\Spelling\de-DE" Folder11="D:\Spelling\de-DE" Folder12="D:\Spelling\de-DE" Folder13="D:\Spelling\de-DE" Folder14="D:\Spelling\de-DE" Folder15="D:\Spelling\de-DE" Folder16="D:\Spelling\de-DE" Folder17="D:\Spelling\de-DE" Folder18="D:\Spelling\de-DE" Folder19="D:\Spelling\de-DE" Folder20="D:\Spelling\de-DE" CustomDictionaries="21" CustomDictionary0="D:\Spelling\de-DE\abkuerzungen.dic" CustomDictionary1="D:\Spelling\de-DE\astronomie.dic" CustomDictionary2="D:\Spelling\de-DE\biologie.dic" CustomDictionary3="D:\Spelling\de-DE\chemie.dic" CustomDictionary4="D:\Spelling\de-DE\computer.dic" CustomDictionary5="D:\Spelling\de-DE\de_alt.dic" CustomDictionary6="D:\Spelling\de-DE\de_neu.dic" CustomDictionary7="D:\Spelling\de-DE\elektronic.dic" CustomDictionary8="D:\Spelling\de-DE\geographie.dic" CustomDictionary9="D:\Spelling\de-DE\geologie.dic" CustomDictionary10="D:\Spelling\de-DE\informatik.dic" CustomDictionary11="D:\Spelling\de-DE\mathematik.dic" CustomDictionary12="D:\Spelling\de-DE\medizin.dic" CustomDictionary13="D:\Spelling\de-DE\namen.dic" CustomDictionary14="D:\Spelling\de-DE\organisationen.dic" CustomDictionary15="D:\Spelling\de-DE\physik.dic" CustomDictionary16="D:\Spelling\de-DE\recht.dic" CustomDictionary17="D:\Spelling\de-DE\remove.dic" CustomDictionary18="D:\Spelling\de-DE\tex_de.dic" CustomDictionary19="D:\Spelling\de-DE\vornamen.dic" CustomDictionary20="D:\Spelling\de-DE\wirtschaft.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -388,7 +144,10 @@
       <workItem from="1666001823049" duration="13129000" />
       <workItem from="1666030973951" duration="1760000" />
       <workItem from="1666466907057" duration="3037000" />
-      <workItem from="1666637982263" duration="6879000" />
+      <workItem from="1666637982263" duration="7093000" />
+      <workItem from="1667640438195" duration="3462000" />
+      <workItem from="1667643992968" duration="576000" />
+      <workItem from="1667644608215" duration="2392000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Login / Register system">
       <created>1662545562560</created>
@@ -404,7 +163,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666015866951</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished WindowAPI for the frontend">
+      <created>1666645039082</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1666645039082</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added .gitignore files">
+      <created>1666645149547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666645149547</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,6 +204,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Finished Login / Register system" />
     <MESSAGE value="Finished window system" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished window system" />
+    <MESSAGE value="Finished WindowAPI for the frontend" />
+    <MESSAGE value="Added .gitignore files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added .gitignore files" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 import {ChangeDetectorRef, Component, OnInit, ViewChild, ViewContainerRef} from '@angular/core';
 import {TaskbarIcon} from "./taskbar-icon/taskbar-icon.component";
 import {WindowWrapper} from "../../components/window-wrapper/window-wrapper.component";
+import {Notification} from "webdesktop_windowapi/dist/helper/Notification";
 
 export interface IconType {
   uuid: number;
@@ -20,10 +21,10 @@ export interface ProgramArgs {
 }
 
 export const programs: {[programUUID: string]: ProgramArgs} = {
-  ['defender']: {
-    identifier: 'defender',
-    name: 'Windows Defender',
-    handlerUrl: 'http://localhost:4200/',
+  ['tester']: {
+    identifier: 'tester',
+    name: 'WindowAPI Tester',
+    handlerUrl: 'http://localhost:8080/',
   }
 }
 
@@ -56,18 +57,18 @@ export class DesktopComponent implements OnInit {
     document.addEventListener('mousemove', this.mouseMove);
 
     setTimeout(() => {
-      this.addTaskbarIcon(programs['defender']);
+      this.addTaskbarIcon(programs['tester']);
     });
   }
 
-  public openProgram(programUUID: string) {
+  public openProgram(programUUID: string, args?: string[], asPopup?: boolean): number {
     const program = programs[programUUID];
     const exists = this.getTaskbarIcon(programUUID) != undefined;
 
     if (!exists)
       this.addTaskbarIcon(program, true);
 
-    this.getTaskbarIcon(programUUID).icon.openProgram();
+    return this.getTaskbarIcon(programUUID).icon.openProgram(args, asPopup);
   }
 
   public addTaskbarIcon(program: ProgramArgs, removeOnClose: boolean = false, index?: number) {
@@ -130,6 +131,10 @@ export class DesktopComponent implements OnInit {
       uuid++;
     }
     return uuid;
+  }
+
+  public sendNotification(notification: Notification) {
+    console.log(notification);
   }
 
   public mouseMove(event: MouseEvent) {

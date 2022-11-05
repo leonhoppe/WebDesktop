@@ -21,14 +21,15 @@ export class TaskbarIcon {
     this.type = type;
   }
 
-  public openProgram() {
+  public openProgram(args?: string[], asPopup: boolean = false): number {
     const window = DesktopComponent.windowContainer.createComponent(WindowWrapper);
     window.instance.program = this.type.program;
     DesktopComponent.instance.cdr.detectChanges();
-    window.instance.initialize(this);
+    window.instance.initialize(this, args || [], asPopup);
 
     this.windows.push(window.instance);
     this.setIndicator('wide');
+    return window.instance.uuid;
   }
 
   public onTaskbarClick(event: MouseEvent) {

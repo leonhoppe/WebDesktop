@@ -13,7 +13,7 @@
       <div class="header-button">
         <mat-icon class="minimize" (click)="toggleMinimized()">minimize</mat-icon>
       </div>
-      <div class="header-button">
+      <div class="header-button" *ngIf="resizable">
         <mat-icon (click)="toggleMaximized()">{{resizeIcon}}</mat-icon>
       </div>
       <div class="header-button">

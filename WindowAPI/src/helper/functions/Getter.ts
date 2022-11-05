@@ -6,4 +6,5 @@
     minimized(): Promise<boolean>;
     draggable(): Promise<boolean>;
     resizable(): Promise<boolean>;
+    uuid(): Promise<number>;
 }

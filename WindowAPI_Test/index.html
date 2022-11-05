@@ -2,25 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Window API Test</title>
 </head>
 <body>
 
-<iframe src="window.html" width="512" height="512" id="window-frame"></iframe>
+<button id="action">Click to Action</button>
 
-<script>
-    const frame = document.getElementById('window-frame');
+<script type="module">
+    import {WindowAPI} from "./node_modules/webdesktop_windowapi/dist/WindowAPI.js";
+
+    const api = new WindowAPI();
     
-    frame.addEventListener('load', () => {
+    const action = document.getElementById("action");
+    action.onclick = async () => {
+        /*const data = {};
+        data.title = await api.get.title();
+        data.size = await api.get.size();
+        data.position = await api.get.position();
+        data.maximized = await api.get.maximized();
+        data.minimized = await api.get.maximized();
+        data.draggable = await api.get.draggable();
+        data.resizable = await api.get.resizable();
+        data.uuid = await api.get.uuid();
+        console.log("GET METHODS: ", data);
         
-    });
-    
-    window.addEventListener('message', (event) => {
-        if (event.origin !== new URL(frame.src).origin) return;
-
-        console.log(event.data);
-        frame.contentWindow.postMessage({content: 'Test Titel'}, event.origin);
-    }, false);
+        await api.set.title("New Title");
+        await api.set.size({width: 400, height: 300});
+        await api.set.position({x: 20, y: 20});
+        await api.set.maximized(true);
+        await api.set.minimized(true);
+        await api.set.draggable(false);
+        await api.set.resizable(false);
+        
+        await api.action.openWindow("tester");
+        await api.action.closeWindow(0);
+        await api.action.sendDataToWindow(0, "Hello World!");
+        await api.action.close();
+        await api.action.focus();
+        await api.action.notification({}); // TODO: Implement Notifications
+        await api.action.openPopup({});*/ // TODO: Implement Popups
+    }
 </script>
 
 </body>
