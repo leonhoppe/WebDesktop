@@ -4,6 +4,19 @@ import {TaskbarIcon} from "../../sites/desktop/taskbar-icon/taskbar-icon.compone
 import {Package} from "webdesktop_windowapi/dist/helper/Package";
 import {WindowEvent} from "webdesktop_windowapi/dist/helper/EventData";
 
+class StaticPromise<T> {
+  public readonly innerPromise: Promise<T>;
+  public reject: (reason?: any) => void;
+  public resolve: (value: (T | PromiseLike<T>)) => void;
+
+  public constructor() {
+    this.innerPromise = new Promise<T>((resolve1, reject1) => {
+      this.reject = reject1;
+      this.resolve = resolve1;
+    });
+  }
+}
+
 @Component({
   selector: 'app-window-wrapper',
   templateUrl: './window-wrapper.component.html',
@@ -24,6 +37,7 @@ export class WindowWrapper {
   public resizable: boolean = true;
   public asPopup: boolean;
   public args: string[];
+  public globalAwait: StaticPromise<void>;
 
   public resizeIcon: string = "fullscreen";
   public maximized: boolean = false;
@@ -36,7 +50,8 @@ export class WindowWrapper {
     window.addEventListener('message', this.messageHandler);
   }
 
-  public initialize(taskbar: TaskbarIcon, args: string[], asPopup: boolean) {
+  public initialize(taskbar: TaskbarIcon, args: string[], asPopup: boolean): Promise<void> {
+    this.globalAwait = new StaticPromise<void>();
     this.title = this.program.name;
     this.args = args;
     this.asPopup = asPopup;
@@ -45,6 +60,7 @@ export class WindowWrapper {
     this.taskbar = taskbar;
     this.content.nativeElement.src = this.program.handlerUrl;
     this.focus();
+    return this.globalAwait.innerPromise;
   }
 
   public close() {
@@ -122,6 +138,7 @@ export class WindowWrapper {
   }
 
   public applyContentListeners(content: HTMLIFrameElement) {
+    // TODO: Handle inFrame events
     /*content.contentWindow.addEventListener('mousemove', this.onMove.bind(this));
     content.contentWindow.addEventListener('mousedown', this.focus.bind(this));
     content.contentWindow.addEventListener('mouseup', this.resizeHandler?.windowResizeStop.bind(this.resizeHandler));*/
@@ -132,6 +149,8 @@ export class WindowWrapper {
       this.dispatchEvent({type: "openAsPopup", data: this.args});
     else
       this.dispatchEvent({type: "open", data: this.args});
+
+    this.globalAwait.resolve();
   }
 
   public onMove(event: MouseEvent) {
@@ -139,7 +158,7 @@ export class WindowWrapper {
     this.resizeHandler?.windowResize(event);
   }
 
-  private onMessage(event: MessageEvent) {
+  private async onMessage(event: MessageEvent) {
     const iframe = this.content.nativeElement as HTMLIFrameElement;
     if (event.source != iframe.contentWindow) return;
 
@@ -152,9 +171,9 @@ export class WindowWrapper {
       this.handleSet(data);
     }
     else if (data.method == 'action') {
-      const pkg: Package = {method: "action", content: this.handleAction(data)};
+      const pkg: Package = {method: "action", content: await this.handleAction(data)};
 
-      if (data.action != 'closeSelf' && (data.action == 'closeWindow' && data.content.uuid == this.uuid))
+      if (data.action != 'closeSelf' && (data.action == 'closeWindow' && data.content.uuid != this.uuid))
         iframe.contentWindow.postMessage(pkg, event.origin);
     }
   }
@@ -232,7 +251,7 @@ export class WindowWrapper {
     }
   }
 
-  private handleAction(data: Package): any {
+  private async handleAction(data: Package): Promise<any> {
     switch (data.action) {
       case "openWindow":
         return DesktopComponent.instance.openProgram(data.content.identifier, data.content.args, data.content.asPopup);

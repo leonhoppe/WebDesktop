@@ -61,7 +61,7 @@ export class DesktopComponent implements OnInit {
     });
   }
 
-  public openProgram(programUUID: string, args?: string[], asPopup?: boolean): number {
+  public openProgram(programUUID: string, args?: string[], asPopup?: boolean): Promise<number> {
     const program = programs[programUUID];
     const exists = this.getTaskbarIcon(programUUID) != undefined;
 

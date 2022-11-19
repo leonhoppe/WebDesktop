@@ -6,23 +6,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="041c7675-58ae-4243-af88-0d29855e558f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/WindowAPI_Test/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.WebDesktop 2.0/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebDesktop 2.0/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebDesktop 2.0/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebDesktop 2.0/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Frontend/src/app/components/window-wrapper/window-wrapper.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/components/window-wrapper/window-wrapper.component.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/src/app/components/window-wrapper/window-wrapper.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/components/window-wrapper/window-wrapper.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/src/app/sites/desktop/desktop.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/sites/desktop/desktop.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Frontend/src/app/sites/desktop/taskbar-icon/taskbar-icon.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/src/app/sites/desktop/taskbar-icon/taskbar-icon.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowAPI/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowAPI/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowAPI/src/WindowAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI/src/WindowAPI.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowAPI/src/helper/PackageTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI/src/helper/PackageTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowAPI/src/helper/functions/Getter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI/src/helper/functions/Getter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowAPI_Test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI_Test/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowAPI_Test/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI_Test/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowAPI_Test/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/WindowAPI_Test/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WindowAPI_Test/window.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,7 +136,9 @@
       <workItem from="1666637982263" duration="7093000" />
       <workItem from="1667640438195" duration="3462000" />
       <workItem from="1667643992968" duration="576000" />
-      <workItem from="1667644608215" duration="2392000" />
+      <workItem from="1667644608215" duration="2578000" />
+      <workItem from="1668608627802" duration="886000" />
+      <workItem from="1668609549396" duration="872000" />
     </task>
     <task id="LOCAL-00001" summary="Finished Login / Register system">
       <created>1662545562560</created>
@@ -177,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666645149547</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Implemented Backend WindowAPI">
+      <created>1667647154337</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667647154337</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +204,7 @@
     <MESSAGE value="Finished window system" />
     <MESSAGE value="Finished WindowAPI for the frontend" />
     <MESSAGE value="Added .gitignore files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added .gitignore files" />
+    <MESSAGE value="Implemented Backend WindowAPI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implemented Backend WindowAPI" />
   </component>
 </project>

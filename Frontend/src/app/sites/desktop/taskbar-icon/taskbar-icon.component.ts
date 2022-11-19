@@ -21,22 +21,22 @@ export class TaskbarIcon {
     this.type = type;
   }
 
-  public openProgram(args?: string[], asPopup: boolean = false): number {
+  public async openProgram(args?: string[], asPopup: boolean = false): Promise<number> {
     const window = DesktopComponent.windowContainer.createComponent(WindowWrapper);
     window.instance.program = this.type.program;
     DesktopComponent.instance.cdr.detectChanges();
-    window.instance.initialize(this, args || [], asPopup);
+    await window.instance.initialize(this, args || [], asPopup);
 
     this.windows.push(window.instance);
     this.setIndicator('wide');
     return window.instance.uuid;
   }
 
-  public onTaskbarClick(event: MouseEvent) {
+  public async onTaskbarClick(event: MouseEvent) {
     if (this.instancesOpen) return;
 
     if (this.windows.length == 0 || event.shiftKey) {
-      this.openProgram();
+      await this.openProgram();
       return;
     }
 
